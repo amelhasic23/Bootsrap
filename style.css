@@ -1,0 +1,40 @@
+.nav-link {
+	margin: 0 0.25rem;
+}
+
+#icons,
+#gallery,
+#tables {
+	margin: 5rem;
+}
+
+#icons > div {
+	padding: 1rem;
+}
+
+section:last-of-type {
+	background-color: rgb(39, 39, 39);
+	padding-bottom: 0.5rem;
+}
+
+section:last-of-type h4 {
+	margin-bottom: 1rem;
+}
+
+#hero {
+	position: relative;
+}
+
+#heroBox {
+	background-color: #31c68b;
+	position: absolute;
+	top: 12.5%;
+	left: 10%;
+	max-width: 80%;
+}
+
+@media screen and (max-width: 576px) {
+	#heroBox {
+		top: 28%;
+	}
+}
